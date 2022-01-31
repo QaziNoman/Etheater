@@ -1,0 +1,33 @@
+﻿{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:41859",
+      "sslPort": 44362
+    }
+  },
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "Movies",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "ASPNETCORE_HOSTINGSTARTUPASSEMBLIES": "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation"
+      }
+    },
+   
+      "Etheater": {
+        "commandName": "Project",
+        "dotnetRunMessages": "true",
+        "launchBrowser": true,
+        "launchUrl": "Movies",
+        "applicationUrl": "https://localhost:5001;http://localhost:5000",
+        "environmentVariables": {
+          "ASPNETCORE_ENVIRONMENT": "Development",
+          "ASPNETCORE_HOSTINGSTARTUPASSEMBLIES": "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation"
+        }
+      }
+    }
+  }
